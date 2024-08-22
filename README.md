@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : HARIPRASHAAD RA 
+Roll no : 212223040060
+Date of experiment : 21/08/2024
 
 
 
@@ -78,26 +78,122 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
+org 100h
+MOV al,11h;
+MOV bl,20h;
+ADD al,bl;
+MOV [6379h],al;
+ret
 
+```
 
 
 ## Output  
- 
+ ![addition](https://github.com/user-attachments/assets/c5df7910-72cd-46b2-86e3-50bb4dcb8dfb)
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ```
+org 100h
+MOV al,20h;
+MOV bl,[8778h];
+SUB bl,al;
+MOV [8798h],bl;
+ret
+```
 ## Output  
+![sub](https://github.com/user-attachments/assets/fde5b52d-81ae-4e45-8b44-53c01eb9f696)
+
 ## Multiplication alp 
+```
+org 100h
+MOV al,13h;
+MOV bl,2h;
+MUL bl;
+MOV [6063h],bl;
+ret
+
+```
  ## Output  
+ ![mul](https://github.com/user-attachments/assets/6c0c291f-ca05-4015-9c15-d4d3c2860c3d)
+
 
 
 ## Division alp 
+```
+org 100H
+MOV SI,0532H;
+MOV AX,0A32H;
+MOV BX,0B13H;
+OR AX,BX;
+ret
+```
+## Output  
+![div](https://github.com/user-attachments/assets/822ef77f-83e7-46d2-891f-d8037c25d316)
 
+## OR Operation
+
+```
+org 100H
+MOV SI,0532H;
+MOV AX,0A32H;
+MOV BX,0B13H;
+OR AX,BX;
+ret
+```
 ## Output  
 
+![or](https://github.com/user-attachments/assets/2db7ebe2-c490-4e5d-b56a-62c353894bf8)
+
+
+
+
+## AND Operation
+
+```
+
+org 100H
+MOV [SI],AX;
+MOV AX,0A32H;
+MOV BX,0B13H;
+AND AX,BX;
+ret
+```
+
+## OUTPUT
+![and](https://github.com/user-attachments/assets/2f7fa484-ea41-47be-b602-df7a80c48649)
+
+
+## XOR Operation
+
+```
+org 100H
+MOV [SI+2],AX;
+MOV AX,0A32H;
+MOV BX,0B13H;
+XOR AX,BX;
+ret
+```
+
+## Output
+![xor](https://github.com/user-attachments/assets/bde07ee5-971b-4aa5-bffa-320da246ca59)
+
+
+## NOT Operation
+
+```
+org 100H
+MOV [SI+4],AX;
+MOV AX,0A32H;
+NOT AX;
+MOV [SI+6],AX;
+ret
+```
+##OUTPUT 
+![not](https://github.com/user-attachments/assets/c209060e-7404-4d1c-84da-68c1a1dd9671)
 
 ## Result :
- 
-
+ Thus, ALP for fundamental arithmetic and logical operations are executed successfully
 
 
 
