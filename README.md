@@ -90,7 +90,8 @@ ret
 
 
 ## Output  
- ![addition](https://github.com/user-attachments/assets/c5df7910-72cd-46b2-86e3-50bb4dcb8dfb)
+![Screenshot (170)](https://github.com/user-attachments/assets/03688718-d9fc-473c-99b6-d7be42d58a24)
+
 
 ## Subtraction   of 8 bit numbers  ALP 
  ```
@@ -102,7 +103,8 @@ MOV [8798h],bl;
 ret
 ```
 ## Output  
-![sub](https://github.com/user-attachments/assets/fde5b52d-81ae-4e45-8b44-53c01eb9f696)
+![Screenshot (171)](https://github.com/user-attachments/assets/742fe8a5-4cc6-4917-adcb-24f2209d0d56)
+
 
 ## Multiplication alp 
 ```
@@ -115,7 +117,8 @@ ret
 
 ```
  ## Output  
- ![mul](https://github.com/user-attachments/assets/6c0c291f-ca05-4015-9c15-d4d3c2860c3d)
+![Screenshot (172)](https://github.com/user-attachments/assets/395d3361-6d64-4c8b-9edc-ee9c5b6ea0a0)
+
 
 
 
@@ -129,7 +132,8 @@ OR AX,BX;
 ret
 ```
 ## Output  
-![div](https://github.com/user-attachments/assets/822ef77f-83e7-46d2-891f-d8037c25d316)
+![Screenshot (173)](https://github.com/user-attachments/assets/84c29ea7-f66e-477e-9935-937c23332b00)
+
 
 ## OR Operation
 
@@ -143,7 +147,8 @@ ret
 ```
 ## Output  
 
-![or](https://github.com/user-attachments/assets/2db7ebe2-c490-4e5d-b56a-62c353894bf8)
+![Screenshot (174)](https://github.com/user-attachments/assets/5fc630e0-d2aa-426c-8e24-dde41abb7689)
+
 
 
 
@@ -161,7 +166,9 @@ ret
 ```
 
 ## OUTPUT
-![and](https://github.com/user-attachments/assets/2f7fa484-ea41-47be-b602-df7a80c48649)
+![Screenshot (175)](https://github.com/user-attachments/assets/48ecb3e0-19fc-47df-a34c-2c7b2b742738)
+
+
 
 
 ## XOR Operation
@@ -176,7 +183,8 @@ ret
 ```
 
 ## Output
-![xor](https://github.com/user-attachments/assets/bde07ee5-971b-4aa5-bffa-320da246ca59)
+![Screenshot (176)](https://github.com/user-attachments/assets/26977972-eafc-4c9c-b139-8fd4dc0587b9)
+
 
 
 ## NOT Operation
@@ -190,7 +198,8 @@ MOV [SI+6],AX;
 ret
 ```
 ##OUTPUT 
-![not](https://github.com/user-attachments/assets/c209060e-7404-4d1c-84da-68c1a1dd9671)
+![Screenshot (177)](https://github.com/user-attachments/assets/075b8bc3-175d-4b04-82b1-0996f87938bf)
+
 
 ## Result :
  Thus, ALP for fundamental arithmetic and logical operations are executed successfully
